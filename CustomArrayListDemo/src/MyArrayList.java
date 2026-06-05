@@ -93,7 +93,7 @@ public class MyArrayList extends ArrayList<Student> {
          * Comparator.comparing(Student::getGpa) is a method reference that creates a Comparator
          * for comparing Student objects based on their GPA.
          */
-        this.sort(Comparator.comparing(Student::getGpa));
+        this.sort(Comparator.comparing(Student::getGpa)); // sort the list using the Comparator
     }
 
     // sort by gpa in accending order then by name in accending order
